@@ -1,0 +1,178 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #444;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  display: block;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+h2{
+  text-align: center;
+}
+.container {
+  text-align: center;
+  padding: 20px;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#latest-anime {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.card h2 {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+#searchBar{
+  margin-top:60px;
+}
+#searchBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+#animeInput {
+  padding: 10px;
+  width: 300px;
+  border: 2px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+}
+
+#animeInput:focus {
+  border-color: #66afe9;
+  box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+.searchBtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchBtn i {
+  margin-right: 5px;
+}
+
+.searchBtn:hover {
+  background-color: #45a049;
+}
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+#loginForm, #signupForm {
+  background-color: white;
+  padding: 20px;
+  padding-right : 39px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#loginForm h2, #signupForm h2 {
+  margin-bottom: 20px;
+}
+
+#loginForm label, #signupForm label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#loginForm input, #signupForm input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#loginForm button, #signupForm button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#loginForm button:hover, #signupForm button:hover {
+  background-color: #45a049;
+}
+#profile {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 16px;
+  color: white;
+}
